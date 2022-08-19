@@ -1,1 +1,32 @@
-<p>jour-feriee works!</p>
+<label for="jour">Nouveau Jour Ferier</label>
+ <input type="text" jourFeriee="jour"  [(ngModel)]="JF.jourFeriee">
+ <label for="Date">Date de la journée</label>
+ <input type="date" id="start" name="trip-start"
+ value="" min="1930-01-01" max="2130-12-31" [(ngModel)]="JF.dateJF">
+ <!-- <input type="submit" (click)="addjourferierController()" value="Envoyer"> -->
+ <td><button class="btn btn-primary" (click)="addjourferierController(JF)">Ajouter</button></td>
+
+
+
+
+ <!-- <input type="date" dateJF="date"  [(ngModel)]="JF.jourFeriee>/////  -->
+
+ 
+  
+
+      <tr  *ngFor=" let jf of listeJF; let i = index" >
+         Nom de la Jour Ferrier:{{jf.jourFeriee}}
+   
+        <a> ''    '' -----******-----  ''    '' </a>
+
+        <a >Date de la Jour Ferrier:{{jf.dateJF | date: 'dd/MM/yyyy'}}</a>
+
+         <a ><button class="btn btn-primary" (click)=" removecontroller(jf.jourFeriee)">Delete</button></a > -->
+            <!-- <button class="btn btn-success" routerLink="/edit/{{JF}}" (click)=" updatecontroller(jf.jourFeriee)">Editer</button> -->
+  
+      </tr>
+    
+   
+        
+     
+       

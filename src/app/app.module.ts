@@ -62,8 +62,9 @@ import { PatientVaccinComponent } from './core/patient-vaccin/patient-vaccin.com
 import { PatientListComponent } from './core/patient/patient-list/patient-list.component';
 import { ParentListComponent } from './core/parent/parent-list/parent-list.component';
 import { VaccinListComponent } from './core/vaccin/vaccin-list/vaccin-list.component';
-import { JourFerieeListComponent } from './core/jour-feriee/jour-feriee-list/jour-feriee-list.component';
+
 import { MatFormFieldModule } from '@angular/material/form-field';
+
 
 @NgModule({
   declarations: [
@@ -80,8 +81,9 @@ import { MatFormFieldModule } from '@angular/material/form-field';
     VaccinComponent,
     VaccinListComponent,
     JourFerieeComponent,
-    JourFerieeListComponent,
-    PatientVaccinComponent
+
+    PatientVaccinComponent,
+
   ],
   imports: [
     BrowserModule,
